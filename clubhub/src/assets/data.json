@@ -1,0 +1,83 @@
+[
+    {
+      "eventName": "Event 1",
+      "clubName": "Club A",
+      "venue": "Venue X",
+      "capacity": 100,
+      "date": "2023-12-01",
+      "time": "18:00"
+    },
+    {
+      "eventName": "Event 2",
+      "clubName": "Club B",
+      "venue": "Venue Y",
+      "capacity": 120,
+      "date": "2023-12-05",
+      "time": "19:30"
+    },
+    {
+      "eventName": "Event 3",
+      "clubName": "Club C",
+      "venue": "Venue Z",
+      "capacity": 80,
+      "date": "2023-12-10",
+      "time": "20:15"
+    },
+    {
+      "eventName": "Event 4",
+      "clubName": "Club D",
+      "venue": "Venue P",
+      "capacity": 150,
+      "date": "2023-12-15",
+      "time": "17:45"
+    },
+    {
+      "eventName": "Event 5",
+      "clubName": "Club E",
+      "venue": "Venue Q",
+      "capacity": 90,
+      "date": "2023-12-20",
+      "time": "21:00"
+    },
+    {
+      "eventName": "Event 6",
+      "clubName": "Club F",
+      "venue": "Venue R",
+      "capacity": 110,
+      "date": "2023-12-25",
+      "time": "18:30"
+    },
+    {
+      "eventName": "Event 7",
+      "clubName": "Club G",
+      "venue": "Venue S",
+      "capacity": 130,
+      "date": "2023-12-30",
+      "time": "19:00"
+    },
+    {
+      "eventName": "Event 8",
+      "clubName": "Club H",
+      "venue": "Venue T",
+      "capacity": 95,
+      "date": "2024-01-05",
+      "time": "20:45"
+    },
+    {
+      "eventName": "Event 9",
+      "clubName": "Club I",
+      "venue": "Venue U",
+      "capacity": 140,
+      "date": "2024-01-10",
+      "time": "18:15"
+    },
+    {
+      "eventName": "Event 10",
+      "clubName": "Club J",
+      "venue": "Venue V",
+      "capacity": 105,
+      "date": "2024-01-15",
+      "time": "21:30"
+    }
+  ]
+  

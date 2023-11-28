@@ -1,0 +1,51 @@
+/* ContactUs.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .glassmorphism-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .glassmorphism-container h2 {
+    color: #fff;
+  }
+  
+  .glassmorphism-container p {
+    color: #eee;
+  }
+  
+  .glassmorphism-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .glassmorphism-container .form-label {
+    color: #fff;
+  }
+  
+  .glassmorphism-container .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .glassmorphism-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .glassmorphism-container .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add other styles as needed */
+
+  

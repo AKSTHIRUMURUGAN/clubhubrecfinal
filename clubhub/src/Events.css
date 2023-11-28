@@ -1,0 +1,91 @@
+/* Add your custom styles for the Events component */
+
+/* Container */
+.d-flex {
+    height: 100vh;
+  }
+  
+  /* Table Container */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Table Header Styling */
+  .table th {
+    cursor: pointer;
+    padding: 5px;
+    text-align: left;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* Table Body Styling */
+  .table tbody {
+    background-color: #f8f9fa;
+  }
+  
+  /* Table Row Styling */
+  .table-row {
+    transition: background-color 0.3s;
+  }
+  
+  /* Rounded Corners for Cells */
+  .rounded-cell {
+    border-radius: 25%;
+  }
+  
+  /* Pagination Styling */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Search Box Styling */
+  .form-control {
+    width: 100%;
+  }
+  
+  /* Add Event Button Styling */
+  .btn-success {
+    margin-top: 10px;
+  }
+  
+  /* Sorting Icons */
+  .fa-sort,
+  .fa-sort-up,
+  .fa-sort-down {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  .fa-sort-up {
+    color: #28a745;
+  }
+  
+  .fa-sort-down {
+    color: #dc3545;
+  }
+  

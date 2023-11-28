@@ -1,0 +1,111 @@
+/* CreateEvent.css */
+
+/* Form Styling */
+.glassmorphism-form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    color: white;
+    transition: border-bottom 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  input:hover {
+    border-bottom: 1px solid white;
+    transform: scale(1.05);
+  }
+  
+  /* File Input Styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .custom-file-input {
+    color: white;
+  }
+  
+  /* Image Preview Styling */
+  /* .image-preview {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+
+  } */
+  
+  .image-preview img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; 
+    border-radius: 50%; 
+  }
+  
+  /* Button Styling */
+  button {
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button:hover .click-effect {
+    transform: scale(10);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .click-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(255, 255, 255, 0.8), transparent);
+    border-radius: 50%;
+    z-index: 0;
+  }
+  /* CreateEvent.css */
+
+/* ... (existing styles) */
+
+/* Link Button Styling */
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .link-button:hover {
+    background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    animation: rainbow-animation 3s infinite;
+  }
+  
+  @keyframes rainbow-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

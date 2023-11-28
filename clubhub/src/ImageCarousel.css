@@ -1,0 +1,60 @@
+.image-carousel {
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-container.hovered {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  filter: brightness(80%) contrast(120%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image.zoomed {
+  transform: scale(1.2); /* Zoom effect on hover */
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Glow effect on hover */
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #343a40; /* Bootstrap dark background color */
+  color: #fff; /* Bootstrap light text color */
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: #292b2c; /* Bootstrap slightly darker background color on hover */
+}
+
